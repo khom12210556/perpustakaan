@@ -13,7 +13,7 @@ class Klasifikasi extends Migration
             'ddc'      =>['type'=>'varchar', 'lenght'=>'12', 'null'=>false ],
             'nama'     =>['type'=>'varchar', 'lenght'=>'50', 'null'=>false ],
         ]);
-        $this->forge->addPrimaryKey('id');
+        $this->forge->addPrimaryKey('id'); 
         $this->forge->createtable('Klasifikasi');
     }
 
